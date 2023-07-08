@@ -1,0 +1,12 @@
+@import '@/styles/_variables.scss';
+
+.appWrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100svh;
+}
+
+.content {
+  background-color: $primary;
+  color: $text-primary;
+}

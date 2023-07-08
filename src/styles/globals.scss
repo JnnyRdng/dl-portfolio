@@ -1,0 +1,61 @@
+@import './variables.scss';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $text-primary;
+  background-color: $primary;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 700;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.text-container {
+  position: relative;
+  padding: 4rem 0rem;
+  background-color: $secondary;
+  color: $text-secondary;
+  & > * {
+    max-width: $max-content;
+    margin: 0rem auto;
+    padding: 0 3rem;
+  }
+}
+
+.padded-text {
+  position: relative;
+  max-width: $max-content;
+  margin: 1rem auto;
+  padding: 1rem 3rem 1rem;
+  line-height: 1.5rem;
+
+  @media screen and (max-width: $breakpoint) {
+    // margin: 1rem 0.25rem;
+  }
+  // background-color: $blue;
+}
+
+.post-image {
+  margin: 0 auto;
+  width: 100%;
+  max-width: $max-width;
+  // aspect-ratio: 16 / 9;
+  height: auto;
+
+  &-wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+}
