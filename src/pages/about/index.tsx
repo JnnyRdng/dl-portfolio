@@ -8,7 +8,7 @@ const AboutPage = () => {
         <h2>About me.</h2>
       </div>
       <p className="padded-text">
-        So who am I? I'm an enigma, a shadow, the fleeting glimpse of a squirrel running up a tree.
+        So who am I? I&apos;m an enigma, a shadow, the fleeting glimpse of a squirrel running up a tree.
       </p>
     </>
   );
