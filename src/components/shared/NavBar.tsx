@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect } from "react";
 import styles from './NavBar.module.scss';
 import Link from "next/link";
-import { Squash as Hamburger } from "hamburger-react";
+import { Turn as Hamburger } from "hamburger-react";
 import useToggle from "@/hooks/useToggle";
 import { concat } from "@/lib/utils/string-utils";
 import { useRouter } from "next/router";
@@ -18,13 +18,17 @@ export const NavBar = () => {
 
   const [expanded, setExpanded, toggle] = useToggle();
   const close = useCallback(() => setExpanded(false), [setExpanded]);
+  // useEffect(() => {
+  //   close();
+  // }, [close, pathname]);
+
   useEffect(() => {
-    close();
-  }, [close, pathname]);
+    document.body.style.overflowY = expanded ? 'hidden' : 'auto';
+  }, [expanded]);
 
   return (
     <>
-      <div className={styles.navInner}>
+      <div className={styles.navOuter}>
         <nav className={styles.nav}>
           <Link href='/' className={styles.brand}>
             <h1 className={bangers.className}>
@@ -32,13 +36,13 @@ export const NavBar = () => {
             </h1>
           </Link>
           <div className={styles.hamburger}>
-            <Hamburger toggled={expanded} toggle={toggle} />
+            <Hamburger toggled={expanded} toggle={toggle} direction='left' distance="md" />
           </div>
           <div className={concat(styles.navMenu, expanded && styles.expanded)}>
             <ul>
-              <NavItem href='/' text='Home' exact />
-              <NavItem href='/about' text='About' exact />
-              <NavItem href='/contact' text='Contact' exact />
+              <NavItem href='/' text='Home' handleClick={close} exact />
+              <NavItem href='/about' text='About' handleClick={close} exact />
+              <NavItem href='/contact' text='Contact' handleClick={close} exact />
             </ul>
           </div>
         </nav>
@@ -51,9 +55,10 @@ interface NavItemProps {
   href: string;
   text: string;
   exact?: boolean;
+  handleClick: () => void;
 }
 
-const NavItem = ({ href, text, exact }: NavItemProps) => {
+const NavItem = ({ href, text, exact, handleClick }: NavItemProps) => {
 
   const { pathname } = useRouter();
   const active = exact ? href === pathname : pathname.startsWith(href);
@@ -62,7 +67,8 @@ const NavItem = ({ href, text, exact }: NavItemProps) => {
     <li>
       <Link
         href={href}
-        className={active ? styles.active : ''}>
+        className={active ? styles.active : ''}
+        onClick={handleClick}>
         {text}
       </Link>
     </li>
