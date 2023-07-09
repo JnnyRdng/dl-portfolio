@@ -1,19 +1,22 @@
 ---
 title: 'Reel'
 subTitle: '2023'
-description: 'My animations'
 date: '3000-01-01'
 hero: 'drake.gif'
-videoId: '265991365'
 ---
-
 # This is a heading!
 
-I can put text here and it appears in a special Paragraph component. Long text needs to be broken up a little bit or it'll just look like a big fat blob. I don't know what I'm typing at the moment but I always prefer real text over lorem ipsum, even if it just means I've got to randomly write some words down. My brain is just pouring these words into my fingertips and here. we. go!
+The quick, brown fox jumps over a lazy dog. _DJs flock by when MTV ax quiz prog_. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim.
 
-Mental that this can happen. Just splurge some words down and they appear on the computer. Is there a tiny man living inside my keyboard who shouts my orders over to the computer? I like to think so.
+:::vimeo{videoid=295849159}
+:::
+
 
 ![Picture of some work {priority}](/static/images/pic_1.jpg '2asdsa')
 
-:::vimeo{videoid=265991365}
-:::
+
+> Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs!
+
+
+Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. 
+

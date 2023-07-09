@@ -1,15 +1,29 @@
+import { ImageWrapper } from "@/components/shared/blocks/ImageWrapper";
+import { FullWidth } from "@/components/typography/FullWidth";
+import { Indented } from "@/components/typography/Indented";
 import React from "react";
+import danPic from '~/images/dan.jpg';
 
 const AboutPage = () => {
 
   return (
     <>
-      <div className="full-width-container">
+      <FullWidth>
         <h2>About me.</h2>
-      </div>
-      <p className="indent-container">
-        So who am I? I&apos;m an enigma, a shadow, the fleeting glimpse of a squirrel running up a tree.
-      </p>
+      </FullWidth>
+      <Indented>
+        <Indented>
+          <ImageWrapper
+            src={danPic}
+            placeholder='blur'
+            width={400}
+            height={400}
+            title={'Actually it\'s Dan'}
+            alt='Erling Haarland lookalike contest winner 2023'
+            caption='Erling Haarland lookalike contest winner 2023'
+          />
+        </Indented>
+      </Indented>
     </>
   );
 }

@@ -1,0 +1,1 @@
+export const workRoute = (itemId: string) => `/work/${itemId}`;

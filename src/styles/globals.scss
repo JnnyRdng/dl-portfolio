@@ -36,7 +36,7 @@ a {
 .indent-container {
   position: relative;
   max-width: $max-content;
-  margin: 1rem auto;
+  margin: 0rem auto;
   padding: 1rem 3rem 1rem;
   line-height: 1.5rem;
 
@@ -44,6 +44,30 @@ a {
     // margin: 1rem 0.25rem;
   }
   // background-color: $blue;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.bg-primary {
+  background-color: $primary;
+  color: $text-primary;
+}
+
+.bg-secondary {
+  background-color: $secondary;
+  color: $text-secondary;
+}
+
+.bg-blue {
+  background-color: $blue;
+  color: $text-secondary;
+}
+
+.bg-red {
+  background-color: $red;
+  color: $text-secondary;
 }
 
 .post-image {
@@ -58,4 +82,17 @@ a {
     position: relative;
     display: flex;
   }
+}
+
+.bg-debug {
+  background-color: rgba(hotpink, 0.5);
+}
+
+code {
+  color: $red;
+  background-color: darken($primary, 5%);
+  padding: .15rem .5rem;
+  border-radius: .2rem;
+  font-weight: 700;
+  font-family: monospace;
 }
