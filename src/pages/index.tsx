@@ -9,8 +9,8 @@ const HomePage = ({ allItems }: InferGetStaticPropsType<typeof getStaticProps>) 
 
   return (
     <>
-      <div className='text-container'>
-        <h2>Hello. I&apos;m Rex and welcome to my world.</h2>
+      <div className='full-width-container'>
+        <h2>Welcome to my world.</h2>
       </div>
       <div className={styles.grid}>
         {allItems.map((item: IWorkData, index: number) => {

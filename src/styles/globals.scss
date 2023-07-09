@@ -21,7 +21,7 @@ a {
   }
 }
 
-.text-container {
+.full-width-container {
   position: relative;
   padding: 4rem 0rem;
   background-color: $secondary;
@@ -33,7 +33,7 @@ a {
   }
 }
 
-.padded-text {
+.indent-container {
   position: relative;
   max-width: $max-content;
   margin: 1rem auto;

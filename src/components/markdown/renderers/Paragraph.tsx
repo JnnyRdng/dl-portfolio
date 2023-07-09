@@ -6,7 +6,7 @@ export interface ParagraphProps {
 
 export const Paragraph = ({ children }: ParagraphProps) => {
   return (
-    <p className='padded-text'>
+    <p className='indent-container'>
       {children}
     </p>
   );

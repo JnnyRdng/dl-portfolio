@@ -3,7 +3,7 @@ import React from "react";
 const ContactPage = () => {
 
   return (
-    <div className='padded-text'>
+    <div className='indent-container'>
       contact me pls.
     </div>
   );

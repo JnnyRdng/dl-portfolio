@@ -3,7 +3,7 @@ import React from "react";
 const Error404 = () => {
 
   return (
-    <div className='text-container'>
+    <div className='full-width-container'>
       <h2>
         404
       </h2>

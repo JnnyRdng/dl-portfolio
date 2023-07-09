@@ -13,7 +13,7 @@ export const Heading = ({ children, level }: HeadingProps) => {
   const Heading: keyof React.JSX.IntrinsicElements = `h${adjustedLevel}`;
 
   return (
-    <div className='text-container'>
+    <div className='full-width-container'>
     <Heading>
       {children}
     </Heading>
