@@ -1,3 +1,4 @@
+import { FullWidth } from "@/components/typography/FullWidth";
 import { clamp } from "@/lib/utils/number-utils";
 
 type HeadingLevel = 1 | 2 | 3 | 4 | 5 | 6;
@@ -13,10 +14,10 @@ export const Heading = ({ children, level }: HeadingProps) => {
   const Heading: keyof React.JSX.IntrinsicElements = `h${adjustedLevel}`;
 
   return (
-    <div className='full-width-container'>
-    <Heading>
-      {children}
-    </Heading>
-    </div>
+    <FullWidth>
+      <Heading>
+        {children}
+      </Heading>
+    </FullWidth>
   );
 }

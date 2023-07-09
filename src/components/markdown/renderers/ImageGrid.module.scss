@@ -1,0 +1,25 @@
+@import '@/styles/_variables.scss';
+
+
+$w: $max-width;
+
+.imageGrid {
+  --cols: 0;
+  --rows: 0;
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  grid-template-rows: repeat(var(--rows), 1fr);
+  max-width: $w;
+  margin: 1rem auto;
+  // overflow-x: hidden;
+
+  @media screen and (max-width: $breakpoint) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.gridItem {
+  max-width: $w / 2;
+  width: 100%;
+  height: auto;
+}

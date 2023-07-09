@@ -1,16 +1,18 @@
 import { Indented } from "@/components/typography/Indented";
 import React from "react";
 
-export interface ParagraphProps {
+interface Props {
   children: React.ReactNode;
+  tagName: 'ul' | 'ol';
 }
 
-export const Paragraph = ({ children }: ParagraphProps) => {
+export const List = (props: Props) => {
+  const { children, tagName: Tag } = props;
   return (
     <Indented>
-      <p>
+      <Tag>
         {children}
-      </p>
+      </Tag>
     </Indented>
   );
 }
