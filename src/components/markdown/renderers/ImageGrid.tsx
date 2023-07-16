@@ -5,11 +5,14 @@ interface Props {
   rows: string;
   cols: string;
   children: React.ReactNode[];
+  border?: 'black' | 'white';
 }
 
-export const ImageGrid = ({ rows, cols, children }: Props) => {
+export const ImageGrid = ({ rows, cols, children, border }: Props) => {
+  const gap = border !== undefined ? '.2rem' : '0';
+
   return (
-    <div className={styles.imageGrid} style={{ ['--rows' as any]: rows, ['--cols' as any]: cols }}>
+    <div className={styles.imageGrid} style={{ ['--rows' as any]: rows, ['--cols' as any]: cols, gap, backgroundColor: border }}>
       {React.Children.toArray(children).filter(c => {
         return typeof c !== 'string';
       }).map((c, i) => {
@@ -25,7 +28,7 @@ export const ImageGrid = ({ rows, cols, children }: Props) => {
 
 export const markdownToImageGrid = (props: any) => {
   return (
-    <ImageGrid rows={props.rows} cols={props.cols}>
+    <ImageGrid rows={props.rows} cols={props.cols} border={props.border}>
       {props.children[0].props.children}
     </ImageGrid>
   );

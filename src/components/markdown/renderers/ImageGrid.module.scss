@@ -10,7 +10,7 @@ $w: $max-width;
   grid-template-columns: repeat(var(--cols), 1fr);
   grid-template-rows: repeat(var(--rows), 1fr);
   max-width: $w;
-  margin: 1rem auto;
+  margin: 0 auto;
   // overflow-x: hidden;
 
   @media screen and (max-width: $breakpoint) {
