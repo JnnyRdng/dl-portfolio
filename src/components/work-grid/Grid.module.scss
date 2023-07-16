@@ -12,6 +12,9 @@
   & :first-child {
     grid-column: 1 / -1;
   }
+  // & :nth-child(2n):last-child {
+  //   grid-column: 1 / -1;
+  // }
 
   @media screen and (max-width: $breakpoint) {
     grid-template-columns: 1fr;

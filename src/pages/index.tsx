@@ -2,6 +2,7 @@ import { IWorkData, getSortedWork } from "@/lib/work/work-lib";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 import React from "react";
 import { Grid } from "@/components/work-grid/Grid";
+import { FullWidth } from "@/components/typography/FullWidth";
 
 interface Props {
   allItems: IWorkData[];
@@ -11,9 +12,9 @@ const HomePage = ({ allItems }: InferGetStaticPropsType<typeof getStaticProps>) 
 
   return (
     <>
-      <div className='full-width-container'>
+      <FullWidth>
         <h2>Welcome to my world.</h2>
-      </div>
+      </FullWidth>
       <Grid allItems={allItems} />
     </>
   );

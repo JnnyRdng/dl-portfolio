@@ -1,5 +1,6 @@
 import Markdown from "@/components/markdown/Markdown";
 import { IconLink } from "@/components/shared/blocks/IconLink";
+import { FullWidth } from "@/components/typography/FullWidth";
 import { Indented } from "@/components/typography/Indented";
 import { IWorkData, Sibling, getAllWorkIds, getSiblings, getWorkData } from "@/lib/work/work-lib";
 import { workRoute } from "@/lib/work/work-utils";
@@ -23,9 +24,15 @@ const WorkItem = ({ data, prev, next }: InferGetStaticPropsType<typeof getStatic
         <title>{data.title}</title>
       </Head>
 
+      <FullWidth noPadding pageSize>
+        <Indented>
+        <h2>{data.title}</h2>
+        <h4>{data.subTitle}</h4>
+        </Indented>
+      </FullWidth>
       <Markdown markdown={data.contentHtml} />
-      <Indented>
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <FullWidth colour="primary" pageSize>
+        <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
           <div>
             {prev?.id && (
               <IconLink
@@ -34,10 +41,6 @@ const WorkItem = ({ data, prev, next }: InferGetStaticPropsType<typeof getStatic
                 icon={ChevronsLeft}
                 position='left'
               />
-              // <Link href={workRoute(prev.id)}>
-              //   <ChevronsLeft />
-              //   {prev.text}
-              // </Link>
             )}
           </div>
           <div>
@@ -51,7 +54,7 @@ const WorkItem = ({ data, prev, next }: InferGetStaticPropsType<typeof getStatic
             )}
           </div>
         </div>
-      </Indented>
+      </FullWidth>
     </>
   );
 }
