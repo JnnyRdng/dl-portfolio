@@ -1,31 +1,29 @@
-import { ImageWrapper } from "@/components/shared/blocks/ImageWrapper";
-import { FullWidth } from "@/components/typography/FullWidth";
-import { Indented } from "@/components/typography/Indented";
-import React from "react";
-import danPic from '~/images/dan.jpg';
+import Markdown from "@/components/markdown/Markdown";
+import { getAbout } from "@/lib/about/about-lib";
+import { GetStaticProps, InferGetStaticPropsType } from "next";
 
-const AboutPage = () => {
+interface Props {
+  data: any;
+}
+
+const AboutPage = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
   return (
     <>
-      <FullWidth>
-        <h2>About me.</h2>
-      </FullWidth>
-      <Indented>
-        <Indented>
-          <ImageWrapper
-            src={danPic}
-            placeholder='blur'
-            width={400}
-            height={400}
-            title={'Actually it\'s Dan'}
-            alt='Erling Haarland lookalike contest winner 2023'
-            caption='Erling Haarland lookalike contest winner 2023'
-          />
-        </Indented>
-      </Indented>
+      <Markdown
+        markdown={data.contentHtml}
+      />
     </>
   );
+}
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const data = await getAbout();
+  return {
+    props: {
+      data
+    }
+  }
 }
 
 export default AboutPage;
