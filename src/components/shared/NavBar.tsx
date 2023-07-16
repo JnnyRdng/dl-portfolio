@@ -14,13 +14,8 @@ const bangers = Bangers({
 
 export const NavBar = () => {
 
-  const { pathname } = useRouter();
-
   const [expanded, setExpanded, toggle] = useToggle();
   const close = useCallback(() => setExpanded(false), [setExpanded]);
-  // useEffect(() => {
-  //   close();
-  // }, [close, pathname]);
 
   useEffect(() => {
     document.body.style.overflowY = expanded ? 'hidden' : 'auto';
