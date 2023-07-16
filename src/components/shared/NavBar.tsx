@@ -5,12 +5,7 @@ import { Turn as Hamburger } from "hamburger-react";
 import useToggle from "@/hooks/useToggle";
 import { concat } from "@/lib/utils/string-utils";
 import { useRouter } from "next/router";
-import { Bangers } from "next/font/google";
 
-const bangers = Bangers({
-  weight: ['400'],
-  subsets: ['latin'],
-});
 
 export const NavBar = () => {
 
@@ -26,7 +21,7 @@ export const NavBar = () => {
       <div className={styles.navOuter}>
         <nav className={styles.nav}>
           <Link href='/' className={styles.brand}>
-            <h1 className={bangers.className}>
+            <h1>
               Dan Lester
             </h1>
           </Link>

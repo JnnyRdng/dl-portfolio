@@ -1,5 +1,7 @@
 @import "@/styles/_variables.scss";
 
+$background: $black;
+
 .nav {
   width: 100%;
   max-width: calc($max-width + 6rem);
@@ -9,11 +11,14 @@
   align-items: center;
   position: relative;
   margin: 0 auto;
+  background-color: $background;
+  color: $light;
   // color: $text-primary;
 }
 
 .navOuter {
   position: relative;
+  background-color: $background;
 }
 
 .brand {
@@ -95,7 +100,7 @@
       flex-direction: column;
       width: 100%;
       height: calc(100svh - 7rem);
-      background-color: $blue;
+      background-color: $red;
       color: $text-secondary;
       z-index: 9999;
       transform: translateX(-100%);
