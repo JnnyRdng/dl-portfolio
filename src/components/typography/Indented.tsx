@@ -1,10 +1,11 @@
+import { Colours } from "@/lib/types";
 import { concat } from "@/lib/utils/string-utils";
 import React from "react";
 
 interface Props {
   children: React.ReactNode;
   noPadding?: boolean;
-  colour?: 'secondary' | 'blue';
+  colour?: Colours;
 }
 
 export const Indented = ({ children, noPadding, colour }: Props) => {

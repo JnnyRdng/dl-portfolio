@@ -1,0 +1,1 @@
+export type Colours = 'primary' | 'secondary' | 'red' | 'blue' | 'green';

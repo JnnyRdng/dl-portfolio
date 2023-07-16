@@ -26,11 +26,19 @@ a {
   padding: 4rem 0rem;
   background-color: $secondary;
   color: $text-secondary;
-  & > * {
-    max-width: $max-content;
+
+  & > div {
     margin: 0rem auto;
     padding: 0 3rem;
   }
+}
+
+.content-size-inner {
+  max-width: $max-content;
+}
+
+.page-size-inner {
+  max-width: $max-width;
 }
 
 .indent-container {
@@ -39,6 +47,10 @@ a {
   margin: 0rem auto;
   padding: 1rem 3rem 1rem;
   line-height: 1.5rem;
+
+  & p {
+    margin: 1rem 0;
+  }
 
   @media screen and (max-width: $breakpoint) {
     // margin: 1rem 0.25rem;
@@ -68,6 +80,11 @@ a {
 .bg-red {
   background-color: $red;
   color: $text-secondary;
+}
+
+.bg-green {
+  background-color: $green;
+  color: $text-primary;
 }
 
 .post-image {
