@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './Vimeo.module.scss';
+import styles from './VideoEmbed.module.scss';
 
 interface Props {
   videoid: string;
@@ -11,8 +11,8 @@ export const Vimeo = ({ videoid }: Props) => {
 
   return (
     <>
-      <div className={styles.wrapper}>
-        <iframe className={styles.frame} src={`https://player.vimeo.com/video/${videoid}?byline=0&title=0`} width="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+      <div className={styles.videoResponsive}>
+        <iframe src={`https://player.vimeo.com/video/${videoid}?byline=0&title=0`} width="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
       </div>
     </>
   );

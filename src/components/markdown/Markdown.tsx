@@ -10,6 +10,7 @@ import { List } from './renderers/List';
 import { markdownToImageGrid } from './renderers/ImageGrid';
 import { BlockQuote } from './renderers/BlockQuote';
 import { Indented } from '../typography/Indented';
+import Youtube from './renderers/Youtube';
 
 interface Hast {
   node: any;
@@ -86,6 +87,7 @@ const components = {
   ol: (props: any) => TransformUl(props, 'ol'),
   blockquote: ({ node, ...props }: any) => <BlockQuote {...props} />,
   vimeo: ({ node, ...props }: any) => markdownToVimeo(props),
+  youtube: ({ node, ...props }: any) => <Youtube {...props} />,
   imageGrid: ({ node, ...props }: any) => markdownToImageGrid(props),
   hr: () => <Indented><hr /></Indented>
 }
@@ -109,7 +111,7 @@ const Markdown = ({ markdown }: Props) => {
   );
 }
 
-const customTagNames = ['vimeo', 'imageGrid'];
+const customTagNames = ['vimeo', 'youtube', 'imageGrid'];
 
 const customTag = () => {
   return (tree: Node) => {
