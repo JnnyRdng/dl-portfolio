@@ -20,10 +20,15 @@ const HomePage = ({ allItems }: InferGetStaticPropsType<typeof getStaticProps>) 
 
   return (
     <>
-      <FullWidth style={{textAlign: 'center'}}>
-        <h2>{roles.join(` ${Strings.MIDDOT} `)}</h2>
+      <FullWidth style={{ textAlign: 'center' }}>
+        <h2 className={'fancy-font'} style={{ padding: 0, margin: 0, fontSize: '2em' }}>{roles.join(` ${Strings.MIDDOT} `)}</h2>
       </FullWidth>
       <VideoEmbed source='vimeo' videoid='325301318' />
+      <FullWidth style={{ textAlign: 'center' }} colour="blue">
+        Hello, I&apos;m Troy McClure.
+        <br />
+        You May Remember Me From Such Fox Specials As Alien Nose Job And 5 Fabulous Weeks Of The Chevy Chase Show.
+      </FullWidth>
       <Grid allItems={allItems} />
     </>
   );
