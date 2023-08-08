@@ -1,7 +1,5 @@
 @import "@/styles/_variables.scss";
 
-$background: $black;
-
 .nav {
   width: 100%;
   max-width: calc($max-width + 6rem);
@@ -11,14 +9,14 @@ $background: $black;
   align-items: center;
   position: relative;
   margin: 0 auto;
-  background-color: $background;
+  background-color: $nav-background;
   color: $light;
   // color: $text-primary;
 }
 
 .navOuter {
   position: relative;
-  background-color: $background;
+  background-color: $nav-background;
 }
 
 .brand {
@@ -137,72 +135,31 @@ $background: $black;
 }
 
 
-.wave {
-  // position: absolute;
-  // bottom: -2rem;
-  // left: 0;
-  // right: 0;
+// wavy divider
+
+.waveFlex {
+  position: absolute;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  bottom: -2rem;
+  z-index: 999999;
+  left: 0;
+  right: 0;
   height: 2rem;
   width: 100%;
   overflow: hidden;
-  background-color: $blue;
+  background-color: transparent;
+  transform: scaleY(0.3);
+  transform-origin: top center;
+}
+
+.svgWrapper {
+  min-width: 1280px;
+  max-width: 1280px;
+  width: 1280px;
 }
 
 .waveSvg {
-  // position: absolute;
-  // left: 0;
-  fill: $green;
-  width: 100%;
+  fill: $nav-background;
 }
-
-// .waveDivider {
-//   position: relative;
-//   width: 100%;
-//   height: 50px;
-//   overflow: hidden;
-// }
-
-// .wave {
-//   position: absolute;
-//   bottom: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-image: linear-gradient(to right, #abcdef 0%, #ffffff 100%);
-//   transform-origin: bottom;
-// }
-
-// .oldbox {
-//   --mask:
-//     radial-gradient(60px at 20% 30%, transparent 99%, #000 100%),
-//     radial-gradient(70px at 50% 70%, transparent 99%, #000 100%),
-//     radial-gradient(80px at 80% 20%, transparent 99%, #000 100%);
-//   -webkit-mask: var(--mask);
-//   mask: var(--mask);
-//   height: 150px;
-//   /* Adjust the height of the wave/curve */
-// }
-
-// .box {
-//   position: relative;
-//   background-color: #f0f0f0;
-//   /* Add your desired background color */
-//   height: 200px;
-//   /* Adjust the height of the wave/curve */
-// }
-
-// .box::before {
-//   content: '';
-//   position: absolute;
-//   bottom: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   // background: radial-gradient(ellipse at center, transparent 0%, transparent 55%, #000 60%);
-//   background: radial-gradient(60px at 20% 30%, transparent 99%, #000 100%),
-//     radial-gradient(70px at 50% 70%, transparent 99%, #000 100%),
-//     radial-gradient(80px at 80% 20%, transparent 99%, #000 100%);
-//   transform-origin: center bottom;
-//   transform: scaleY(0.6);
-//   /* Adjust this value to control the wave height */
-// }
