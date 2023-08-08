@@ -23,6 +23,7 @@
 
 .gridItem {
   position: relative;
+  overflow: hidden;
 
   &:hover {
     & .popup {
@@ -30,12 +31,12 @@
     }
 
     & .image {
-      filter: brightness(150%);
+      transform: scale(1.1);
     }
   }
 
   & .image {
-    transition: filter 0.25s ease-in;
+    transition: transform 0.5s ease-out;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -106,4 +107,12 @@
     transition-duration: 1s;
   }
   // background-color: hotpink;
+}
+
+.imagePop {
+  @media screen and (max-width: $breakpoint) {
+    & .image {
+      transform: scale(1.1);
+    }
+  }
 }

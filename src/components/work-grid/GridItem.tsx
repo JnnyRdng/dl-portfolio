@@ -24,7 +24,7 @@ export const GridItem = ({ workItem, index }: Props) => {
   return (
     <div className={styles.gridItem}>
       <Link href={workRoute(workItem.id)}>
-        <div className={styles.itemContainer} >
+        <div className={concat(styles.itemContainer, isIntersecting && styles.imagePop)} >
           <Image
             src={`/static/images/${workItem.hero}`}
             width={640 * mult}
