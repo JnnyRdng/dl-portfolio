@@ -25,9 +25,9 @@ const HomePage = ({ allItems }: InferGetStaticPropsType<typeof getStaticProps>) 
       </FullWidth>
       <VideoEmbed source='vimeo' videoid='325301318' />
       <FullWidth style={{ textAlign: 'center' }} colour="blue">
-        Hello, I&apos;m Troy McClure.
+        Hi!
         <br />
-        You May Remember Me From Such Fox Specials As Alien Nose Job And 5 Fabulous Weeks Of The Chevy Chase Show.
+        I&apos;m a creative video director specialising in work that mixes animation and motion graphics with live action. Click through to view my recent projects.
       </FullWidth>
       <Grid allItems={allItems} />
     </>
