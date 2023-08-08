@@ -29,6 +29,7 @@ export const App = ({ Component, pageProps }: AppProps) => {
           }
           .fancy-font {
             font-family: ${pirata.style.fontFamily};
+            letter-spacing: .15rem;
           }
       `}
       </style>
