@@ -90,6 +90,16 @@ a {
   color: $text-primary;
 }
 
+.bg-dark-purple {
+  background-color: $purple;
+  color: $text-secondary;
+}
+
+.bg-light-purple {
+  background-color: $light-purple;
+  color: $text-primary;
+}
+
 .post-image {
   margin: 0 auto;
   width: 100%;

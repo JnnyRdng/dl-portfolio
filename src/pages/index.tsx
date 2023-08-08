@@ -20,11 +20,13 @@ const HomePage = ({ allItems }: InferGetStaticPropsType<typeof getStaticProps>) 
 
   return (
     <>
-      <FullWidth style={{ textAlign: 'center' }}>
-        <h2 className={'fancy-font'} style={{ padding: 0, margin: 0, fontSize: '2em' }}>{roles.join(` ${Strings.MIDDOT} `)}</h2>
+      <FullWidth style={{ textAlign: 'center' }} colour="dark-purple">
+        <h2 className={'fancy-font'} style={{ padding: 0, margin: 0, fontSize: '2em' }}>
+          {roles.join(` ${Strings.MIDDOT} `)}
+        </h2>
       </FullWidth>
       <VideoEmbed source='vimeo' videoid='325301318' />
-      <FullWidth style={{ textAlign: 'center' }} colour="blue">
+      <FullWidth style={{ textAlign: 'center' }} colour="light-purple">
         Hi!
         <br />
         I&apos;m a creative video director specialising in work that mixes animation and motion graphics with live action. Click through to view my recent projects.
