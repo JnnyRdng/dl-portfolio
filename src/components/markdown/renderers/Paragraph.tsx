@@ -1,3 +1,4 @@
+import { FullWidth } from "@/components/typography/FullWidth";
 import { Indented } from "@/components/typography/Indented";
 import React from "react";
 
@@ -7,7 +8,7 @@ export interface ParagraphProps {
 
 export const Paragraph = ({ children }: ParagraphProps) => {
   return (
-    <Indented>
+    <Indented colour="red">
       <p>
         {children}
       </p>

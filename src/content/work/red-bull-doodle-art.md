@@ -2,30 +2,32 @@
 title: Doodle Art Promo
 subTitle: Red Bull
 date: '2023-010-16'
-hero: red-bull-doodle/Athletes thumbnail.png
+hero: red-bull-doodle/Athletes thumbnail_2.png
 ---
 
-_Director, animator, editor_
+A dream project made in collaboration with Red Bull, here I was given access to the footage from some of Red Bull’s greatest stunts and asked to go wild, remixing the footage and combining it with cel animation and rotoscoping to give the impression that the stunts were dreamt up in a sketchpad, before leaping into their final, live action format.
 
-Where does your imagination take you? This international campaign, targeted at global markets, was created with the aim of drumming up interest from students around the world in applying for the annual Doodle Art event, leading to a huge grand finale in Amsterdam.
 
-One particular challenge of this project was the delivery of over 50 different outputs of varying durations and formats, for use across global Red Bull channels. This also involved the creation of clean project files that could be easily adapted by Red Bull film teams across the world, stripping the project files back so
-that only text layers needed to be edited, with no knock-on effects on the rest of the video.
 
-:::imageGrid{cols=4}
+:::imageGrid{cols=4 border=black}
 ![Frame from the video {320x640}](/static/images/red-bull-doodle/frame_163.jpg '')
 ![Frame from the video {320x640}](/static/images/red-bull-doodle/frame_215.jpg '')
 ![Frame from the video {320x640}](/static/images/red-bull-doodle/frame_35.jpg '')
 ![Frame from the video {320x640}](/static/images/red-bull-doodle/frame_81.jpg '')
 :::
 
-With an extremely tight turnaround, this was a difficult project to pull off, and credit to the team for delivering under tricky circumstances.
+
+These social assets were provided to global Red Bull teams, with the aim of drawing interest to the Red Bull’s international Doodle Art competition in Amsterdam. We created a series of five films, using photoshop, after effects, and a whole lot of frame by frame animation, The videos were launched all across Red Bull’s international channels.
+
+:::imageGrid{cols=4 border=black}
+![Frame from the video {320x640}](/static/images/red-bull-doodle/frame_110.jpg '')
+![Frame from the video {320x640}](/static/images/red-bull-doodle/frame_154.jpg '')
+![Frame from the video {320x640}](/static/images/red-bull-doodle/frame_244.jpg '')
+![Frame from the video {320x640}](/static/images/red-bull-doodle/frame_345.jpg '')
+:::
 
 :::crew
-Director of Photography: Graham Pritz-Bennett
-Producer: Sammi Young
-Illustration: Sammi Duong
-Animation: George Summers, Lawrence McLellan, Kyle Maxwell
-Edit: Drew Gibson, Jack Haggerty
-Production company: Heehaw
+Director, Animation: Dan Lester
+Producer: Sami Young
+Assistant Producer: Sophia Marchington
 :::

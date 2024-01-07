@@ -9,7 +9,7 @@ export const Crew = ({ children }: Props) => {
   const [child] = children as any;
   return (
     <div style={{ margin: '1rem 0' }}>
-      <Indented colour='blue'>
+      <Indented colour='light-purple'>
         <h3>Crew</h3>
         <div style={{ marginBottom: '1.5rem' }}>
           {React.Children.toArray(child.props.children)

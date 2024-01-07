@@ -1,1 +1,1 @@
-export type Colours = 'primary' | 'secondary' | 'red' | 'blue' | 'green' | 'dark-purple' | 'light-purple';
+export type Colours = 'primary' | 'secondary' | 'red' | 'blue' | 'green' | 'dark-purple' | 'light-purple' | 'transparent' | 'black';

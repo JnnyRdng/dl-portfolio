@@ -65,9 +65,12 @@ Another role: Another name, More names
 ```
 
 ## Image grid
-> Renders images in a grid. Specify the number of columns in the grid. Bear in mind at small screen sized (mobile) this is be forced to 2, so aim for an _even number of images_
+> Renders images in a grid. Images should be the same size for best effect.
+> Options:
+> - cols=x  --  Specify the number of columns in the grid. Bear in mind at small screen sized (mobile) this is be forced to 2, so aim for an _even number of images_  
+> - border=white|black  --  _Optional._ Adds a black or white border between the images
 ```md
-:::imageGrid{cols=2}
+:::imageGrid{cols=2 border=white}
 ![Image alt text {200x200}](/static/images/folder_name/image1.jpg)
 ![Image alt text {200x200}](/static/images/folder_name/image2.jpg)
 ![Image alt text {200x200}](/static/images/folder_name/image3.jpg)

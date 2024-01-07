@@ -6,6 +6,8 @@ import useToggle from "@/hooks/useToggle";
 import { concat } from "@/lib/utils/string-utils";
 import { useRouter } from "next/router";
 import { NavDivider } from "./NavDivider";
+import logo from '~/images/logo.png';
+import Image from "next/image";
 
 
 export const NavBar = () => {
@@ -19,11 +21,12 @@ export const NavBar = () => {
 
   return (
     <>
-      <div className={styles.navOuter}>
+      <header className={styles.navOuter}>
         <nav className={styles.nav}>
           <Link href='/' className={concat(styles.brand, 'fancy-font')}>
             <h1>
-              Dan Lester
+              <Image src={logo} height={40} alt='Logo' className="me-4" />
+              {' Dan Lester'}
             </h1>
           </Link>
           <div className={styles.hamburger}>
@@ -38,7 +41,7 @@ export const NavBar = () => {
           </div>
         </nav>
         <NavDivider />
-      </div>
+      </header>
     </>
   );
 }

@@ -1,0 +1,16 @@
+@import '@/styles/_variables.scss';
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  max-width: $max-width;
+  margin: 0 auto;
+  position: relative;
+}
+
+.gridItem {
+  max-width: $max-width / 2;
+  width: 100%;
+  height: auto;
+}

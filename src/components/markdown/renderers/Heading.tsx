@@ -14,7 +14,7 @@ export const Heading = ({ children, level }: HeadingProps) => {
   const Heading: keyof React.JSX.IntrinsicElements = `h${adjustedLevel}`;
 
   return (
-    <FullWidth>
+    <FullWidth textAlign="left">
       <Heading>
         {children}
       </Heading>

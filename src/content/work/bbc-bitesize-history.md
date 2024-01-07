@@ -5,14 +5,13 @@ date: '2023-03-16'
 hero: history/frame_471.jpg
 ---
 
-_Role: Director and lead writer_
-
-![History {1280x640}{priority}](/static/images/history/frame_471.jpg)
+:::youtube{videoid=w447WOQZNNQ}
+:::
 
 From the brutal North Berwick witch trials of the late 1500s to the assassination that sparked the beginnings of the first World War, this suite of films cover four key periods in history from a Scottish perspective.
 
 :::imageGrid{cols=2}
-![Frame from the video {640x320}](/static/images/history/frame_4481.jpg '')
+![Frame from the video {640x320}](/static/images/history/frame_4481.jpg)
 ![Frame from the video {640x320}](/static/images/history/frame_3623.jpg '')
 :::
 
@@ -27,6 +26,7 @@ Working with limited budget, we devised a format combining beautiful illustratio
 :::
 
 :::crew
+Director: Dan Lester
 Writers: Dan Lester, Fran Ball, Georgia Tato
 Producer: Astrid Allan
 Illustrators: Sammi Duong, Daisy Ness

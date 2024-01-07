@@ -1,5 +1,3 @@
-# Hi!
-
 I am a creative director with a decade of industry experience, specializing in projects that combine animation and live action in inventive, fresh ways, for global brands like **Red Bull** and **Lee Kum Kee**, alongside educational content for **BBC** and **National Galleries of Scotland**.
 
 I am able to fully direct and oversee projects from start to finish, whilst also being hand-on in all stages of projects, from scriptwriting and research, to directing on shoots and in post, and to overseeing or directly working in After Effects, Premiere, and Cinema4D.

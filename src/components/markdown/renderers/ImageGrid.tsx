@@ -5,7 +5,7 @@ interface Props {
   rows: string;
   cols: string;
   children: React.ReactNode[];
-  border?: 'black' | 'white';
+  border?: 'black' | 'white' | 'grey' | 'light-grey';
 }
 
 export const ImageGrid = ({ rows, cols, children, border }: Props) => {

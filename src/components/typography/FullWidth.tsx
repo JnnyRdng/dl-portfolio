@@ -8,13 +8,14 @@ interface Props {
   noPadding?: boolean;
   pageSize?: boolean;
   style?: CSSProperties;
+  textAlign?: 'left' | 'centre';
 }
 
-export const FullWidth = ({ children, colour = 'secondary', noPadding, pageSize = false, style }: Props) => {
+export const FullWidth = ({ children, colour = 'secondary', noPadding, pageSize = false, style, textAlign }: Props) => {
 
   return (
-    <div className={concat('full-width-container', `bg-${colour}`, noPadding && 'noPadding')} style={style}>
-      <div className={`${pageSize ? 'page' : 'content'}-size-inner`}>
+    <div className={concat('full-width-container', `bg-${colour}`, noPadding && 'noPadding', )} style={style}>
+      <div className={`${pageSize ? 'page' : 'content'}-size-inner ${textAlign === 'centre' ? 'text-center' : 'text-left'}`}>
         {children}
       </div>
     </div>
