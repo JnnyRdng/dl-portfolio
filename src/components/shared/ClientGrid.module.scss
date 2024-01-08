@@ -7,10 +7,11 @@
   max-width: $max-width;
   margin: 0 auto;
   position: relative;
+  gap: 1em;
 }
 
 .gridItem {
-  max-width: $max-width / 2;
+  max-width: $max-width / 4;
   width: 100%;
   height: auto;
 }

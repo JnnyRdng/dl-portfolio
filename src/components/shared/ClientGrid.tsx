@@ -17,24 +17,24 @@ import { FullWidth } from "../typography/FullWidth";
 
 export const ClientGrid = () => {
 
-  const width = 80;
+  const width = 120;
 
   return (
     <>
     <FullWidth colour="black">
       <section className={styles.grid}>
-        <div className={styles.gridItem}><Image src={SDA2022} width={width} alt="'Scottish Design Awards 2022' logo" /></div>
-        <div className={styles.gridItem}><Image src={SDA2023} width={width} alt="'Scottish Design Awards 2023' logo" /></div>
-        <div className={styles.gridItem}><Image src={Evcom2021} width={width} alt="'Evcom 2021' logo" /></div>
-        <div className={styles.gridItem}><Image src={RedBull} width={width} alt="'Red Bull' logo" /></div>
-        <div className={styles.gridItem}><Image src={BBCBitesize} width={width} alt="'BBC Bitesize' logo" /></div>
-        <div className={styles.gridItem}><Image src={WHO} width={width} alt="'World Health Organisation' logo" /></div>
-        <div className={styles.gridItem}><Image src={UnitedNations} width={width} alt="'United Nations' logo" /></div>
-        <div className={styles.gridItem}><Image src={Chillhop} width={width} alt="'Chillhop' logo" /></div>
-        <div className={styles.gridItem}><Image src={LKK} width={width} alt="'Lee Kum Kee' logo" /></div>
-        <div className={styles.gridItem}><Image src={NGS} width={width} alt="'National Galleries Scotland' logo" /></div>
-        <div className={styles.gridItem}><Image src={NMS} width={width} alt="'National Museums Scotland' logo" /></div>
-        <div className={styles.gridItem}><Image src={NOWTV} width={width} alt="'Now TV' logo" /></div>
+        <Image src={SDA2022} width={width} alt="'Scottish Design Awards 2022' logo" className={styles.gridItem} />
+        <Image src={SDA2023} width={width} alt="'Scottish Design Awards 2023' logo" className={styles.gridItem} />
+        <Image src={Evcom2021} width={width} alt="'Evcom 2021' logo" className={styles.gridItem} />
+        <Image src={RedBull} width={width} alt="'Red Bull' logo" className={styles.gridItem} />
+        <Image src={BBCBitesize} width={width} alt="'BBC Bitesize' logo" className={styles.gridItem} />
+        <Image src={WHO} width={width} alt="'World Health Organisation' logo" className={styles.gridItem} />
+        <Image src={UnitedNations} width={width} alt="'United Nations' logo" className={styles.gridItem} />
+        <Image src={Chillhop} width={width} alt="'Chillhop' logo" className={styles.gridItem} />
+        <Image src={LKK} width={width} alt="'Lee Kum Kee' logo" className={styles.gridItem} />
+        <Image src={NGS} width={width} alt="'National Galleries Scotland' logo" className={styles.gridItem} />
+        <Image src={NMS} width={width} alt="'National Museums Scotland' logo" className={styles.gridItem} />
+        <Image src={NOWTV} width={width} alt="'Now TV' logo" className={styles.gridItem} />
       </section>
     </FullWidth>
     </>
