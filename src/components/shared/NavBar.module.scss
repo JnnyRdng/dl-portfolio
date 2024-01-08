@@ -33,6 +33,13 @@
   }
 }
 
+.brandLogo {
+  padding-top: 0.25rem;
+  margin-right: 1rem;
+  height: 40px;
+  width: auto;
+}
+
 .navMenu {
   margin-left: auto;
   font-size: 1.25rem;
@@ -85,8 +92,13 @@
 
 @media screen and (max-width: $breakpoint) {
   .brand {
+    margin-left: -1rem;
     margin-right: 6rem;
-    // font-size: 1.85rem;
+    font-size: 1.5rem;
+  }
+
+  .brandLogo {
+    height: 30px;
   }
 
   .navMenu {

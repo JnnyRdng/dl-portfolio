@@ -25,8 +25,8 @@ export const NavBar = () => {
         <nav className={styles.nav}>
           <Link href='/' className={concat(styles.brand, 'fancy-font')}>
             <h1>
-              <Image src={logo} height={40} alt='Logo' className="me-4" />
-              {' Dan Lester'}
+              <Image src={logo} height={40} alt='Logo' className={styles.brandLogo} />
+              {'Dan Lester'}
             </h1>
           </Link>
           <div className={styles.hamburger}>
