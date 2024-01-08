@@ -15,13 +15,11 @@ const AboutPage = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => 
   return (
     <>
       <Indented>
-        <div className="d-flex justify-content-center">
-          <Image src={pic} alt='Dan Lester' height={290} />
+        <div className="content-image-wrapper">
+            <Image src={pic} alt='Dan Lester' width={390} className="content-image" />
         </div>
       </Indented>
-      <Markdown
-        markdown={data.contentHtml}
-      />
+      <Markdown markdown={data.contentHtml} />
       <ClientGrid />
     </>
   );

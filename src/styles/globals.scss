@@ -124,6 +124,19 @@ a {
   }
 }
 
+.content-image {
+  margin: 0 auto;
+  width: 66%;
+  max-width: $max-width / 2;
+  height: auto;
+
+  &-wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+}
+
 .bg-debug {
   background-color: rgba(hotpink, 0.5);
 }
