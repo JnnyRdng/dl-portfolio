@@ -2,7 +2,7 @@
 title: Hidden Histories of Queer Art
 subTitle: National Galleries Scotland
 date: '2023-04-16'
-hero: queer-art/THUMBNAIL.png
+hero: queer-art/queer-art-thumbnail.png
 ---
 
 :::youtube{videoid=w447WOQZNNQ}

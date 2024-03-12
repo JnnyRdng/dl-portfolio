@@ -2,7 +2,7 @@
 title: Rise of the Pharaohs 
 subTitle: Red Bull
 date: '2023-04-16'
-hero: rise-of-the-pharaohs/frame_65thumbb.png
+hero: rise-of-the-pharaohs/rise-of-the-pharaohs-thumb.png
 ---
 
 :::vimeo{videoid=SKMtZAfaLi8}
