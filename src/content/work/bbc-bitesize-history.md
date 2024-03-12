@@ -1,7 +1,7 @@
 ---
 title: History
 subTitle: BBC Bitesize
-date: '2023-03-16'
+date: '2023-07-16'
 hero: history/bbc-bitesize-history.png
 ---
 

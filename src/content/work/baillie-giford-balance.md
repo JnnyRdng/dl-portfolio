@@ -1,7 +1,7 @@
 ---
 title: Balance
 subTitle: Baillie Gifford
-date: '2023-07-16'
+date: '2023-03-16'
 hero: baillie-gifford-balance/_GLOBE_5b.png
 ---
 
