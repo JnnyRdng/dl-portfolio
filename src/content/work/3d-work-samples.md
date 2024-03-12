@@ -2,7 +2,7 @@
 title: 3D Work Samples
 subTitle: ''
 date: '2022-04-16'
-hero: 3d-work/vlcsnap-2023-07-16-13h17m55s184.png
+hero: 3d-work/3d-work.png
 ---
 
 :::vimeo{videoid=833108003}

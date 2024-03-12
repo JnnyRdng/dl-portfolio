@@ -1,8 +1,8 @@
 ---
 title: History
 subTitle: BBC Bitesize
-date: '2023-03-16'
-hero: history/frame_471.jpg
+date: '2023-07-16'
+hero: history/bbc-bitesize-history.png
 ---
 
 :::vimeo{videoid=900640122 h=40c0a2c388}
