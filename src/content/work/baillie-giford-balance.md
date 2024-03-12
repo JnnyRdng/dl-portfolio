@@ -5,7 +5,7 @@ date: '2023-07-16'
 hero: baillie-gifford-balance/_GLOBE_5b.png
 ---
 
-:::vimeo{videoid=454683633}
+:::vimeo{videoid=922584093 h=556b752544}
 :::
 
 :::imageGrid{cols=2}
