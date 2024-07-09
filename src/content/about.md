@@ -8,5 +8,5 @@ I currently work as a freelance as a director and motion graphics artist, and wo
 
 Through my career, projects I have directed have won multiple awards including Best Animation at the Scottish Design Awards 2023 and 2022, Evcom Clarion Gold and Silver awards for Education and Diversity in 2021, and was nominated for Best Young Creative in Scotland at the Nods in 2017.
 
-Get in [touch via email](mailto:danlester91@gmail.com)  
+Get in [touch via email](mailto:danlester91@gmail.com).  
 [(+44)7890 911668](tel:\(+44\)7890911668)

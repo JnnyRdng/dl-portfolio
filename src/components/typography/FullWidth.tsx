@@ -9,15 +9,17 @@ interface Props {
   pageSize?: boolean;
   style?: CSSProperties;
   textAlign?: 'left' | 'centre';
+  background?: string;
 }
 
-export const FullWidth = ({ children, colour = 'secondary', noPadding, pageSize = false, style, textAlign }: Props) => {
+export const FullWidth = ({ children, colour = 'secondary', noPadding, pageSize = false, style, textAlign, background }: Props) => {
 
   return (
     <div className={concat('full-width-container', `bg-${colour}`, noPadding && 'noPadding', )} style={style}>
-      <div className={`${pageSize ? 'page' : 'content'}-size-inner ${textAlign === 'centre' ? 'text-center' : 'text-left'}`}>
+      <div className={`container-inner ${pageSize ? 'page' : 'content'}-size-inner ${textAlign === 'centre' ? 'text-center' : 'text-left'}`}>
         {children}
       </div>
+      {background && <img alt='bg' src={background} className='banner-bg' /> }
     </div>
   );
 }

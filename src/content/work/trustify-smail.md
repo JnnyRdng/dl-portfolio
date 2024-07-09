@@ -9,9 +9,11 @@ category: motion,animation
 :::vimeo{videoid=378506402 h=e503d2f1bd}
 :::
 
-This fun animation was created to promote Trustify’s SMAIL product, which provides secure email encryption. The animation describes how email is one of the biggest entry points for cyber criminals - represented in a fun, accessible way with a hooded skeleton that recurs through the video.
+This fun animation was created to promote Trustify’s SMAIL product, which provides secure email encryption. The animation describes how email is one of the biggest entry points for cyber criminals - represented in a fun, accessible way with a hooded skeleton that recurs throughout the video.
 
-The video was directed by myself and was I collaborated with a freelance animator to bring it to life.
+The video was directed and illustrated by myself, and I collaborated with a freelance animator - Gavin White - to bring it to life, with fun touches like a Mission Impossible-esque heist scene, and an email ticking time bomb.
+
+The still frames above show three visual directions initially offered to the client. The style on the left was ultimately selected and developed.
 
 
 :::imageGrid{cols=3}

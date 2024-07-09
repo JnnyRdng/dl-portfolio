@@ -26,8 +26,8 @@ const WorkItem = ({ data, prev, next }: InferGetStaticPropsType<typeof getStatic
 
       <FullWidth noPadding pageSize>
         <Indented textAlign="centre">
-          <h2>{data.title}</h2>
-          <h4>{data.subTitle}</h4>
+          <h1 className='fancy-font'>{data.title}</h1>
+          <h4 ><i>{data.subTitle}</i></h4>
         </Indented>
       </FullWidth>
       <Markdown markdown={data.contentHtml} />

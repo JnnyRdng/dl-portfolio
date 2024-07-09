@@ -7,12 +7,13 @@ interface Props {
   noPadding?: boolean;
   colour?: Colours;
   textAlign?: 'left' | 'centre';
+  fillWidth?: boolean;
 }
 
-export const Indented = ({ children, noPadding, colour, textAlign }: Props) => {
+export const Indented = ({ children, noPadding, colour, textAlign, fillWidth }: Props) => {
 
   return (
-    <div className={concat('indent-container', colour && `bg-${colour}`, textAlign === 'centre' ? 'text-center' : 'text-left')}>
+    <div className={concat('indent-container', colour && `bg-${colour}`, textAlign === 'centre' ? 'text-center' : 'text-left', fillWidth && 'fill-width')}>
       {children}
     </div>
   );

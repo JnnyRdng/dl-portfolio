@@ -8,8 +8,8 @@ export interface ParagraphProps {
 
 export const Paragraph = ({ children }: ParagraphProps) => {
   return (
-    <Indented colour="red">
-      <p>
+    <Indented colour="red" fillWidth >
+      <p className="py">
         {children}
       </p>
     </Indented>

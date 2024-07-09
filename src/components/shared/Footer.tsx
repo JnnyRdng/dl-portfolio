@@ -12,6 +12,9 @@ export const Footer = () => {
       <a href='mailto:danlester91@gmail.com' title='Email me'>
         Email
       </a>
+      <a href='tel:(+44)7890911668' title='Phone me'>
+        Phone
+      </a>
     </footer>
   );
 }
