@@ -1,8 +1,9 @@
 ---
-title: Lee Kum Kee - Wonderland
-subTitle: ''
+title: Lee Kum Kee
+subTitle: Wonderland
 date: '2023-04-16'
 hero: wonderland/thumbnail.png
+category: direction,animation
 ---
 
 :::youtube{videoid=JXXXJmTfLTY}

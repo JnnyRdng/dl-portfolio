@@ -3,6 +3,7 @@ title: Questions About Art
 subTitle: National Galleries
 date: '2023-04-16'
 hero: questions-about-art/thumbnail.jpg
+category: direction,motion
 ---
 
 :::youtube{videoid=SKMtZAfaLi8}

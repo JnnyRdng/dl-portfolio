@@ -3,6 +3,7 @@ title: Energy
 subTitle: BBC Bitesize
 date: '2023-04-16'
 hero: energy/thumbnail.png
+category: animation
 ---
 
 :::vimeo{videoid=530814405}

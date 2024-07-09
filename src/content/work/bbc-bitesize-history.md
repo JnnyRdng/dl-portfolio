@@ -3,6 +3,7 @@ title: History
 subTitle: BBC Bitesize
 date: '2023-03-16'
 hero: history/frame_471.jpg
+category: animation,motion,direction
 ---
 
 :::vimeo{videoid=900640122 h=40c0a2c388}

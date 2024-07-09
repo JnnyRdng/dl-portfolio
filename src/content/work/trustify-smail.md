@@ -1,8 +1,9 @@
 ---
-title: Trustify SMAIL
-subTitle: ''
+title: Trustify
+subTitle: SMAIL
 date: '2023-04-16'
 hero: trustify-smail/SMAIL_THUMBNAIL.png
+category: motion,animation
 ---
 
 :::vimeo{videoid=378506402 h=e503d2f1bd}

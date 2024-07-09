@@ -3,6 +3,7 @@ title: Language Evolves
 subTitle: University of Edinburgh
 date: '2023-04-16'
 hero: language-evolves/thumbnail.jpeg
+category: animation
 ---
 
 :::vimeo{videoid=686735305 h=23345d6bec}

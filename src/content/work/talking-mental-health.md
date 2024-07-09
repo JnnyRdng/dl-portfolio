@@ -3,6 +3,7 @@ title: Talking Mental Health
 subTitle: WHO / FIFA World Cup 2022
 date: '2023-04-16'
 hero: talking-mental-health/Thumbnail.jpg
+category: direction,motion
 ---
 
 :::vimeo{videoid=821949005 h=47c3b274f6}
