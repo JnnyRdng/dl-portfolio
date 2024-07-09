@@ -54,10 +54,11 @@ a {
   max-width: $max-content;
   margin: 0rem auto;
   padding: 1rem 3rem 1rem;
-  line-height: 1.5rem;
+  line-height: 1.4rem;
 
   & p {
-    margin: 1rem 0;
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
   }
 
   @media screen and (max-width: $breakpoint) {
@@ -144,8 +145,8 @@ $caption-margin: calc(calc(calc(100% - $max-width) / 2) + 1em);
 
 .content-image {
   margin: 0 auto;
-  width: 66%;
-  max-width: $max-width / 2;
+  width: 100%;
+  max-width: $max-width / 2 + 100;
   height: auto;
 
   &-wrapper {

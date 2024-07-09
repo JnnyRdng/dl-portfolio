@@ -14,9 +14,9 @@ const AboutPage = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => 
 
   return (
     <>
-      <Indented>
+      <Indented colour="red">
         <div className="content-image-wrapper">
-            <Image src={pic} alt='Dan Lester' width={390} className="content-image" />
+            <Image src={pic} alt='Dan Lester' width={600} className="content-image" />
         </div>
       </Indented>
       <Markdown markdown={data.contentHtml} />
