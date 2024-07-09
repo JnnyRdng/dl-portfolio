@@ -14,6 +14,7 @@ export interface IWork {
   date: string;
   hero: string;
   videoId?: string;
+  category?: string;
 }
 
 export interface IWorkData extends IWork {
