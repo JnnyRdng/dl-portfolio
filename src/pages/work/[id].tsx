@@ -25,9 +25,9 @@ const WorkItem = ({ data, prev, next }: InferGetStaticPropsType<typeof getStatic
       </Head>
 
       <FullWidth noPadding pageSize>
-        <Indented>
-        <h2>{data.title}</h2>
-        <h4>{data.subTitle}</h4>
+        <Indented textAlign="centre">
+          <h2>{data.title}</h2>
+          <h4>{data.subTitle}</h4>
         </Indented>
       </FullWidth>
       <Markdown markdown={data.contentHtml} />
@@ -46,11 +46,11 @@ const WorkItem = ({ data, prev, next }: InferGetStaticPropsType<typeof getStatic
           <div>
             {next?.id && (
               <IconLink
-              href={workRoute(next.id)}
-              text={next.text}
-              icon={ChevronsRight}
-              position='right'
-            />
+                href={workRoute(next.id)}
+                text={next.text}
+                icon={ChevronsRight}
+                position='right'
+              />
             )}
           </div>
         </div>

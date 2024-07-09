@@ -21,7 +21,7 @@ export const ClientGrid = () => {
 
   return (
     <>
-    <FullWidth colour="black">
+    <FullWidth colour="dark-purple">
       <section className={styles.grid}>
         <Image src={SDA2022} width={width} alt="'Scottish Design Awards 2022' logo" className={styles.gridItem} />
         <Image src={SDA2023} width={width} alt="'Scottish Design Awards 2023' logo" className={styles.gridItem} />

@@ -13,6 +13,12 @@ body {
   background-color: $primary;
 }
 
+.text-center {
+  * {
+    text-align: center;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: underline;
@@ -121,7 +127,19 @@ a {
     width: 100%;
     position: relative;
     display: flex;
+    flex-flow: column nowrap;
   }
+}
+
+$caption-margin: calc(calc(calc(100% - $max-width) / 2) + 1em);
+
+.caption {
+  margin-top: .5em;
+  margin-bottom: 1em;
+  margin-left: max(1em, $caption-margin);
+  align-self: flex-start;
+  color: lighten($text-primary, 20%);
+  font-style: italic;
 }
 
 .content-image {

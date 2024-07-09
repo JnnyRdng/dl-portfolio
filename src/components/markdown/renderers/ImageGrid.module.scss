@@ -22,4 +22,13 @@ $w: $max-width;
   max-width: $w / 2;
   width: 100%;
   height: auto;
+  box-shadow: 00px 0px 0px $black;
+  transition: transform .25s ease-out, z-index .25s ease-out, box-shadow .25s ease-out;
+
+  &:hover, &:focus {
+    z-index: 999;
+    transform: scale(125%);
+    transition-duration: .5s;
+    box-shadow: 00px 0px 20px $black;
+  }
 }

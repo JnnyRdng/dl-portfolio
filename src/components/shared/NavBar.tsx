@@ -34,7 +34,7 @@ export const NavBar = () => {
           </div>
           <div className={concat(styles.navMenu, expanded && styles.expanded)}>
             <ul>
-              <NavItem href='/' text='Home' handleClick={close} exact />
+              <NavItem href='/' text='Work' handleClick={close} exact />
               <NavItem href='/about' text='About' handleClick={close} exact />
               {/* <NavItem href='/contact' text='Contact' handleClick={close} exact /> */}
             </ul>
