@@ -1,12 +1,12 @@
 ---
 title: Balance
 subTitle: Baillie Gifford
-date: '2023-07-16'
+date: '2023-03-16'
 hero: baillie-gifford-balance/_GLOBE_5b.png
 category: motion,animation
 ---
 
-:::vimeo{videoid=454683633}
+:::vimeo{videoid=922584093 h=556b752544}
 :::
 
 :::imageGrid{cols=2}

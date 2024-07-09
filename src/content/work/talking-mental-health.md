@@ -1,8 +1,8 @@
 ---
 title: Talking Mental Health
 subTitle: WHO / FIFA World Cup 2022
-date: "2023-04-16"
-hero: talking-mental-health/Thumbnail.jpg
+date: '2023-04-16'
+hero: talking-mental-health/mental-health-thumb.png
 category: direction,motion
 ---
 

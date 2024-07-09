@@ -2,11 +2,11 @@
 title: Rise of the Pharaohs 
 subTitle: Red Bull
 date: '2023-04-16'
-hero: rise-of-the-pharaohs/frame_65thumbb.png
+hero: rise-of-the-pharaohs/rise-of-the-pharaohs-thumb.png
 category: direction,motion
 ---
 
-:::vimeo{videoid=SKMtZAfaLi8}
+:::youtube{videoid=PMLNXFTTfvk}
 :::
 
 Set and filmed on the streets of Cairo, this 15 minute documentary, created for Red Bull, tells the underdog tale of Team Egypt’s Valorant Esports team, rising to a shock victory in the grand finale of the international Campus Clutch tournament in Madrid.

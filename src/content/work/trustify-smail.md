@@ -6,7 +6,7 @@ hero: trustify-smail/SMAIL_THUMBNAIL.png
 category: motion,animation
 ---
 
-:::vimeo{videoid=378506402 h=e503d2f1bd}
+:::vimeo{videoid=922586703 h=c43d9d4890}
 :::
 
 This fun animation was created to promote Trustify’s SMAIL product, which provides secure email encryption. The animation describes how email is one of the biggest entry points for cyber criminals - represented in a fun, accessible way with a hooded skeleton that recurs throughout the video.
