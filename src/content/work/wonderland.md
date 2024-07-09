@@ -17,6 +17,13 @@ A journey down the rabbit hole into a Chinese-inspired wonderland, this film fol
 
 Directed by myself in collaboration with my Heehaw colleague Sammi Duong and created by a team of ten, the piece references different aspects of Chinese life and art history, with each new scene referencing a different visual style. Through this we aimed to get across the breadth and excitement of Chinese culture, and the ways that food can teleport us to far away places and experiences.
 
+:::imageGrid{cols=2}
+![Frame from the video {640x320}](/static/images/wonderland/animated1.gif)
+![Frame from the video {640x320}](/static/images/wonderland/animated2.gif)
+![Frame from the video {640x320}](/static/images/wonderland/animated4.gif)
+![Frame from the video {640x320}](/static/images/wonderland/animated3.gif)
+:::
+
 To reflect this, we developed a series of different animation styles - a cel animated watercolour style shot to reflect older chinese artwork, a bold, hyper-lit vector style to reflect contemporary Chinese city culture, a beautiful skyscape of spinning, handdrawn lanterns and more.
 
 Particularly important was for us to link the live action intro seamlessly to the animation, with a transition between them whereby our character is magically transformed into her animated self, setting her journey across the chinese multiverse into motion. Yum!
