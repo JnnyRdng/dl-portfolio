@@ -17,19 +17,19 @@ The files were provided as simplified AE project files, stripped down to only th
 
 
 :::imageGrid{cols=2}
-![Frame from the video {640x320}](/static/images/Chillhop/Chillhop1.png '')
-![Frame from the video {640x320}](/static/images/Chillhop/Chillhop2.png '')
+![Frame from the video {640x320}](/static/images/chillhop/Chillhop1.png '')
+![Frame from the video {640x320}](/static/images/chillhop/Chillhop2.png '')
 :::
 
 
 
 :::imageGrid{cols=3}
-![Frame from the video {640x320}](/static/images/Chillhop/ch_gif_1.gif 'some title')
-![Frame from the video {640x320}](/static/images/Chillhop/ch_gif_2.gif '')
-![Frame from the video {640x320}](/static/images/Chillhop/ch_gif_3.gif '')
-![Frame from the video {640x320}](/static/images/Chillhop/CH1.png '')
-![Frame from the video {640x320}](/static/images/Chillhop/CH2.png '')
-![Frame from the video {640x320}](/static/images/Chillhop/CH3.png '')
+![Frame from the video {640x320}](/static/images/chillhop/ch_gif_1.gif 'some title')
+![Frame from the video {640x320}](/static/images/chillhop/ch_gif_2.gif '')
+![Frame from the video {640x320}](/static/images/chillhop/ch_gif_3.gif '')
+![Frame from the video {640x320}](/static/images/chillhop/CH1.png '')
+![Frame from the video {640x320}](/static/images/chillhop/CH2.png '')
+![Frame from the video {640x320}](/static/images/chillhop/CH3.png '')
 :::
 
 
