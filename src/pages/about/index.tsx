@@ -4,8 +4,7 @@ import { Indented } from "@/components/typography/Indented";
 import { getAbout } from "@/lib/about/about-lib";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 import Image from "next/image";
-// import pic from '~/images/lestinos.png';
-import pic from '~/images/hello3.gif';
+import pic from '~/images/Hello3.gif';
 
 interface Props {
   data: any;
