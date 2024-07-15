@@ -5,7 +5,7 @@ import { getAbout } from "@/lib/about/about-lib";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 import Image from "next/image";
 // import pic from '~/images/lestinos.png';
-import pic from '~/images/about/sexy-face.png';
+import pic from '~/images/hello3.gif';
 
 interface Props {
   data: any;

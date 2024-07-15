@@ -1,9 +1,9 @@
 ---
 title: Doodle Marketing
 subTitle: Red Bull
-date: "2024-07-16"
-hero: doodle-marketing/THUMBNAIL.png
-category: motion
+date: "2023-02-16"
+hero: doodle-marketing/doodlehero.png
+category: direction,motion
 ---
 
 :::vimeo{videoid=979041532 h=90de032e37}
@@ -29,10 +29,12 @@ With an extremely tight turnaround, this was a difficult project to pull off, wi
 :::
 
 :::crew
+Director: Dan Lester
 Director of Photography: Graham Pritz-Bennett
-Producer: Sammi Young
+Producer: Sami Young
+Assistant Producers: Sarah Blackie, Sophia Marchington
 Illustration: Sammi Duong
-Animation: George Summers, Lawrence McLellan, Kyle Maxwell
+Animation: George Summers, Lawrence McLellan, Kyle Maxwell, Dan Lester
 Edit: Drew Gibson, Jack Haggerty
 Production company: Heehaw
 :::

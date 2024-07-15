@@ -41,6 +41,7 @@ The piece involved a lot of research and discussions with a range of athletes be
 Director: Dan Lester
 Director of Photography: Graham Pritz-Bennett
 Producer: Sami Young
+Assistant Producer: Sarah Blackie
 Illustration: Sammi Duong
 Animation: George Summers, Lawrence McLellan, Dan Lester
 Edit: Dan Lester, Drew Gibson
