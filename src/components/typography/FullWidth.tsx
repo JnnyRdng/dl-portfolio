@@ -15,7 +15,7 @@ interface Props {
 export const FullWidth = ({ children, colour = 'secondary', noPadding, pageSize = false, style, textAlign, background }: Props) => {
 
   return (
-    <div className={concat('full-width-container', `bg-${colour}`, noPadding && 'noPadding', )} style={style}>
+    <div className={concat('full-width-container', `bg-${colour}`, noPadding && 'noPadding', background !== undefined && 'background-img-container')} style={style}>
       <div className={`container-inner ${pageSize ? 'page' : 'content'}-size-inner ${textAlign === 'centre' ? 'text-center' : 'text-left'}`}>
         {children}
       </div>

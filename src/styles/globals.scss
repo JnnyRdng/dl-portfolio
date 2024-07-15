@@ -39,7 +39,12 @@ a {
   &>div {
     margin: 0rem auto;
     padding: 0 3rem;
-    z-index: 10000;
+  }
+}
+
+.background-img-container {
+  &>div {
+    z-index: 5000;
   }
 }
 
