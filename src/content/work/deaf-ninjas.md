@@ -1,7 +1,7 @@
 ---
 title: Ninja Phoenix & The Gloopy Glop
 subTitle: NDCS
-date: '2023-07-01'
+date: '2023-02-01'
 hero: glue-ear/gluehero.png
 category: animation,
 ---
