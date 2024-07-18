@@ -30,10 +30,13 @@ These social assets were provided to global Red Bull teams, with the aim of draw
 ![Frame from the video {320x640}](/static/images/red-bull-doodle/frame_345.jpg)
 :::
 
-The animation itself was developed with the internal Red Bull team, adding in flourishes common in the Doodle Art competition entries, whilst . The final video went live on the main Red Bull brand TikTok channel, with millions of views..
+The animation itself was developed with the internal Red Bull team, adding in flourishes common in the Doodle Art competition entries, whilst . The final video went live on the main Red Bull brand TikTok channel, with millions of views.
 
 :::crew
-Director, Animation: Dan Lester
+Director: Dan Lester
+Animation: Dan Lester
 Producer: Sami Young
 Assistant Producer: Sophia Marchington
+Client: Red Bull
+Production company: Heehaw
 :::

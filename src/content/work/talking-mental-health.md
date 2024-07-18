@@ -9,7 +9,7 @@ category: direction,motion
 :::vimeo{videoid=979024997 h=41407e8561}
 :::
 
-Created in collaboration with the WHO for the FIFA world cup, this project revolved around the use of animated visual metaphors to get across the reality of living with mental health conditions. A runner struggling with extreme anxiety finds herself physically constricted by vines to the point of finding it difficult to breath. A boxer with ADHD describes his mind flickering restlessly between different worries and memories. A paralympian describes the feeling of a troubling energy trapped inside him as he deals with depression.
+Created in collaboration with the World Health Organization for the FIFA world cup, this project revolved around the use of animated visual metaphors to get across the reality of living with mental health conditions. A runner struggling with extreme anxiety finds herself physically constricted by vines to the point of finding it difficult to breath. A boxer with ADHD describes his mind flickering restlessly between different worries and memories. A paralympian describes the feeling of a troubling energy trapped inside him as he deals with depression.
 
 _Below: Initial concept development, sketched styleframes in collaboration with athletes in creating visual metaphors for mental health conditions._
 
