@@ -21,7 +21,8 @@ The files were provided as simplified AE project files, stripped down to only th
 ![Frame from the video {640x320}](/static/images/chillhop/chillhop2.png '')
 :::
 
-
+Above: Development sketches for logo loops
+Below: Gifs of final looping animations
 
 :::imageGrid{cols=3}
 ![Frame from the video {640x320}](/static/images/chillhop/ch_gif_1.gif 'some title')
