@@ -11,7 +11,7 @@ category: direction,motion
 
 Where does your imagination take you? This international campaign, targeted at global markets, was created with the aim of drumming up interest from students around the world in applying for the annual Doodle Art event, leading to a huge grand finale in Amsterdam.
 
-I directed the project from start to finish, overseeing the initial development and storyboards, the shoot itself, and post production.
+I directed the project from start to finish, overseeing the initial development and storyboards, the shoot itself, and post production, in collaboration with the project's producer, Sami Young.
 
 Opening in live action as we push in on a young budding artist scribbling away, we swiftly transition into a fantastical animated world, where our artist is flying through a landscape of their own crazy, animated scribbles, before landing in the event space of the grand final.
 

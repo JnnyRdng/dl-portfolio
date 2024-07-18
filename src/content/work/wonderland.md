@@ -11,7 +11,6 @@ category: direction,animation
 
 A journey down the rabbithole into a Chinese-inspired wonderland, this film follows a character as she flickers through various wild and beautiful scenes, encountering a gigantic shrimp, a blade-runner style neon-soaked city, and a serene skyscape of beautifully spinning lanterns.
 
-A journey down the rabbit hole into a Chinese-inspired wonderland, this film follows a character as she flickers through various wild and beautiful scenes, encountering a gigantic shrimp, a blade-runner style neon-soaked city, and a serene skyscape of beautifully spinning lanterns.
 
 ![Frame from the video {1280x640}](/static/images/wonderland/1.png)
 
