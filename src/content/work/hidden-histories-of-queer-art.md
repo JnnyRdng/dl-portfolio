@@ -31,7 +31,7 @@ The art direction was created in collaboration with Monika Stachowiak, reflectin
 ![Frame from the video {640x320}](/static/images/queer-art/frame_5078.jpg '')
 :::
 
-Below: Trailer for the Not Seeings Straight series
+Below: Trailer for the Not Seeing Straight series
 
 :::vimeo{videoid=971451653 h=f95b58e7dd}
 :::
