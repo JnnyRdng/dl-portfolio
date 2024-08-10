@@ -11,6 +11,13 @@ category: direction,motion
 
 Created in collaboration with the World Health Organization for the FIFA world cup, this project revolved around the use of animated visual metaphors to get across the reality of living with mental health conditions. A runner struggling with extreme anxiety finds herself physically constricted by vines to the point of finding it difficult to breath. A boxer with ADHD describes his mind flickering restlessly between different worries and memories. A paralympian describes the feeling of a troubling energy trapped inside him as he deals with depression.
 
+:::imageGrid{cols=3}
+![Frame from the video {640x320}](/static/images/talking-mental-health/mh1.gif)
+![Frame from the video {640x320}](/static/images/talking-mental-health/mh2.gif)
+![Frame from the video {640x320}](/static/images/talking-mental-health/mh3.gif)
+![Frame from the video {640x320}](/static/images/talking-mental-health/mh4.gif)
+:::
+
 _Below: Initial concept development, sketched styleframes in collaboration with athletes in creating visual metaphors for mental health conditions._
 
 :::imageGrid{cols=3}

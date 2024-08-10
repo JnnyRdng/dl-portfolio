@@ -16,6 +16,15 @@ From the brutal North Berwick witch trials of the late 1500s to the assassinatio
 ![Frame from the video {640x320}](/static/images/history/frame_3623.jpg)
 :::
 
+:::imageGrid{cols=2}
+![Frame from the video {640x320}](/static/images/history/history1.gif)
+![Frame from the video {640x320}](/static/images/history/history2.gif)
+![Frame from the video {640x320}](/static/images/history/history3.gif)
+![Frame from the video {640x320}](/static/images/history/history4.gif)
+![Frame from the video {640x320}](/static/images/history/history5.gif)
+![Frame from the video {640x320}](/static/images/history/history6.gif)
+:::
+
 Working with a limited budget, we devised a format whereby each film opens with beautiful illustrations animated in a slick, minimalist way, before bringing to life archival imagery in a magical but authentic DIY manner.
 
 The introductory animated sequences were written and storyboarded in collaboration with my team of illustrators, before subtle movements and visual effects were added in After Effects.

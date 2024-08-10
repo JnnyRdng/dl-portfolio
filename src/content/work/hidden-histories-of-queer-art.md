@@ -14,6 +14,10 @@ From treasure troves of queer artworks nearly lost to time, to secret symbols pa
 The series was extremely satisfying to work on, and racked up well over a million views on youtube. Featuring prominent queer art figures like Roxanna Halls and Horse McDonald, and made in collaboration with staff at the National Galleries of Scotland, the series aimed to give voice to underrepresented groups and artists throughout history, highlighting the work of figures like Claude Cahun, Duncan Grant, or Anne Lister.
 
 :::imageGrid{cols=2}
+![Frame from the video {640x320}](/static/images/queer-art/art2.gif '')
+![Frame from the video {640x320}](/static/images/queer-art/art1.gif '')
+![Frame from the video {640x320}](/static/images/queer-art/art3.gif '')
+![Frame from the video {640x320}](/static/images/queer-art/art4.gif '')
 ![Frame from the video {640x320}](/static/images/queer-art/frame_3181.jpg '')
 ![Frame from the video {640x320}](/static/images/queer-art/frame_2659.jpg '')
 :::
